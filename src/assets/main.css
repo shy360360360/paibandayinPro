@@ -1,0 +1,60 @@
+/* Global Style Resets */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Roboto', 'Helvetica Neue', 'PingFang SC', sans-serif;
+    color: #202124;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Utilities */
+.w-full { width: 100%; }
+.flex-1 { flex: 1; min-width: 0; }
+.flex-2 { flex: 2; min-width: 0; }
+.mr-1 { margin-right: 4px; }
+.mr-2 { margin-right: 8px; }
+.ml-2 { margin-left: 8px; }
+.mb-1 { margin-bottom: 4px; }
+.mb-2 { margin-bottom: 8px; }
+.mt-2 { margin-top: 8px; }
+
+/* Element Plus Overrides for Google Style */
+:root {
+    --el-color-primary: #1a73e8;
+    --el-color-primary-light-3: #4285f4;
+    --el-color-primary-light-9: #e8f0fe;
+    --el-border-radius-base: 4px;
+    --el-text-color-regular: #3c4043;
+    --el-text-color-secondary: #5f6368;
+}
+
+.el-button--small {
+    padding: 8px 12px;
+    font-weight: 500;
+}
+
+/* Hide ugly number input controls sometimes */
+.geo-box .el-input-number .el-input__inner {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Tooltip style */
+.el-popper.is-dark {
+    background: #202124 !important;
+    font-size: 11px !important;
+}
+
+/* Tag style */
+.el-tag {
+    border-radius: 12px;
+    border: 1px solid transparent;
+}

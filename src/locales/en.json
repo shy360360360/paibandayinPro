@@ -1,0 +1,13 @@
+{
+  "label": {
+    "base": "Table",
+    "view": "View",
+    "field": "Field",
+    "current": "Current selected cell data"
+  },
+  "placeholder": {
+    "base": "Select a table",
+    "view": "Select a view",
+    "field": "Select a field"
+  }
+}
